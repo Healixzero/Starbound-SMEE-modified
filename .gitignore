@@ -1,0 +1,5 @@
+*.swp
+universe_server.config~
+.gitignore~
+Changelog.txt
+Readme.txt

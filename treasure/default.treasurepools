@@ -163,9 +163,8 @@
 	"n7humanGearTreasure" : [
 		[ 0, {
 			"fill" : [
-				"nanostove",
-				"nanostove",
-				"nanostove",
+				[ "nanostove", 3 ],
+				[ "tent2", 3 ],
 				[ "torch", 1000 ],
 				[ "torch", 1000 ],
 				[ "torch", 1000 ],
@@ -175,6 +174,9 @@
 				[ "cookedalienmeat", 1000 ],
 				[ "cookedalienmeat", 1000 ],
 				[ "cookedalienmeat", 1000 ],
+				[ "bandage", 1000 ],
+				[ "bandage", 1000 ],
+				[ "bandage", 1000 ],
 				"rainbowcapeback",
 				"lanternstickback",
 				"m1helmetmedichead",
@@ -187,12 +189,9 @@
 				"kimonochest",
 				"kimonolegs",
 				"electricbass",
-				"tent2",
-				"tent2",
-				"tent2",
-				[ "bandage", 1000 ],
-				[ "bandage", 1000 ],
-				[ "bandage", 1000 ]
+				[ "generatedsword", 1, { "definition" : "eyesword" } ],
+				[ "generatedsword", 1, { "definition" : "watersword" } ],
+				[ "generatedgun", 1, { "definition" : "rareplasmaassaultrifle" } ]
 			],
 			"levelVariance" : [0, 0],
 			"allowDuplication" : false
@@ -253,7 +252,8 @@
 				[ "ash", 1000 ],
 				[ "ash", 1000 ],
 				"stonehoe",
-				"stoneaxe"
+				"stoneaxe",
+				[ "shroom", 1000 ]
 			],
 			"levelVariance" : [0, 0],
 			"allowDuplication" : false

@@ -263,7 +263,7 @@
       ]
     },
     {
-      "comment": "sr1shipwall  sr1shiplocker",
+      "comment": "sr1shipwall  sr1shiplocker starter",
       "foregroundBlock": false,
       "backgroundBlock": true,
       "backgroundMat": "sr1shipwall",
@@ -283,15 +283,12 @@
       ]
     },
     {
-      "comment": "sr1shipwall  sr1shiplocker",
+      "comment": "sr1shipwall  sr1shiplocker empty",
       "foregroundBlock": false,
       "backgroundBlock": true,
       "backgroundMat": "sr1shipwall",
       "object": "sr1shiplocker",
       "objectParameters": {
-        "treasurePools": [
-          "n7humanStarterTreasure"
-        ],
         "level": 1.0,
         "unbreakable": true
       },
@@ -299,6 +296,86 @@
         0,
         200,
         100,
+        255
+      ]
+    },
+    {
+      "comment": "sr1shipwall  sr1shiplocker Resource1",
+      "foregroundBlock": false,
+      "backgroundBlock": true,
+      "backgroundMat": "sr1shipwall",
+      "object": "sr1shiplocker",
+      "objectParameters": {
+        "treasurePools": [
+          "n7humanResource1Treasure"
+        ],
+        "level": 1.0,
+        "unbreakable": true
+      },
+      "value": [
+        0,
+        200,
+        25,
+        255
+      ]
+    },
+    {
+      "comment": "sr1shipwall  sr1shiplocker Resource2",
+      "foregroundBlock": false,
+      "backgroundBlock": true,
+      "backgroundMat": "sr1shipwall",
+      "object": "sr1shiplocker",
+      "objectParameters": {
+        "treasurePools": [
+          "n7humanResource2Treasure"
+        ],
+        "level": 1.0,
+        "unbreakable": true
+      },
+      "value": [
+        0,
+        200,
+        50,
+        255
+      ]
+    },
+    {
+      "comment": "sr1shipwall  sr1shiplocker Gear",
+      "foregroundBlock": false,
+      "backgroundBlock": true,
+      "backgroundMat": "sr1shipwall",
+      "object": "sr1shiplocker",
+      "objectParameters": {
+        "treasurePools": [
+          "n7humanGearTreasure"
+        ],
+        "level": 1.0,
+        "unbreakable": true
+      },
+      "value": [
+        0,
+        200,
+        125,
+        255
+      ]
+    },
+    {
+      "comment": "sr1shipwall  sr1shiplocker Farm",
+      "foregroundBlock": false,
+      "backgroundBlock": true,
+      "backgroundMat": "sr1shipwall",
+      "object": "sr1shiplocker",
+      "objectParameters": {
+        "treasurePools": [
+          "n7humanFarmTreasure"
+        ],
+        "level": 1.0,
+        "unbreakable": true
+      },
+      "value": [
+        0,
+        200,
+        150,
         255
       ]
     },
@@ -369,10 +446,10 @@
       ]
     },
     {
-      "comment": "steelplatform",
+      "comment": "shipplatform",
       "foregroundBlock": true,
       "backgroundBlock": true,
-      "foregroundMat": "steelplatform",
+      "foregroundMat": "apexshipplatformplatform",
       "value": [
         130,
         130,
@@ -381,10 +458,10 @@
       ]
     },
     {
-      "comment": "sr1shipdetails  steelplatform",
+      "comment": "sr1shipdetails  shipplatform",
       "foregroundBlock": true,
       "backgroundBlock": true,
-      "foregroundMat": "steelplatform",
+      "foregroundMat": "apexshipplatformplatform",
       "backgroundMat": "sr1shipdetails",
       "value": [
         100,
@@ -394,10 +471,10 @@
       ]
     },
     {
-      "comment": "sr1shipwall  steelplatform",
+      "comment": "sr1shipwall  shipplatform",
       "foregroundBlock": true,
       "backgroundBlock": true,
-      "foregroundMat": "steelplatform",
+      "foregroundMat": "apexshipplatformplatform",
       "backgroundMat": "sr1shipwall",
       "value": [
         85,

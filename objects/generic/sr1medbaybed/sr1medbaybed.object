@@ -18,7 +18,7 @@
 	"sitEmote" : "sleep",
 	"sitStatusEffects" : [
 		{ "kind" : "Nude" },
-		{ "kind" : "Health", "amount" : 0.10 }
+		{ "kind" : "Health", "amount" : 0.50 }
 	],
 	"sitEffectEmitters" : [ "sleepbubbles" ],
 

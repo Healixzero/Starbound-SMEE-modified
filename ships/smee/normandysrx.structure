@@ -380,6 +380,26 @@
       ]
     },
     {
+      "comment": "sr1shipwall  sr1shiplocker Backup",
+      "foregroundBlock": false,
+      "backgroundBlock": true,
+      "backgroundMat": "sr1shipwall",
+      "object": "sr1shiplocker",
+      "objectParameters": {
+        "treasurePools": [
+          "n7humanBackupTreasure"
+        ],
+        "level": 1.0,
+        "unbreakable": true
+      },
+      "value": [
+        0,
+        200,
+        200,
+        255
+      ]
+    },
+    {
       "comment": "sr1shipwall  sr1techstation",
       "foregroundBlock": false,
       "backgroundBlock": true,

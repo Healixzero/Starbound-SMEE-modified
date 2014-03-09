@@ -16,7 +16,19 @@
 				[ "Eezoore", 1000 ],
 				[ "refinedEezo", 1000 ],
 				[ "refinedEezo", 1000 ],
-				[ "skyfruit", 1000 ]
+				[ "skyfruit", 1000 ],
+				[ "iridiumbar", 1000 ],
+				[ "palladiumbar", 1000 ],
+				[ "money", 1000 ],
+				[ "money", 1000 ],
+				[ "money", 1000 ],
+				[ "money", 1000 ],
+				[ "money", 1000 ],
+				[ "money", 1000 ],
+				[ "money", 1000 ],
+				[ "money", 1000 ],
+				[ "money", 1000 ],
+				[ "money", 1000 ]
 			],
 			"levelVariance" : [0, 0],
 			"allowDuplication" : false
@@ -192,7 +204,8 @@
 				"electricbass",
 				[ "generatedsword", 1, { "definition" : "eyesword" } ],
 				[ "generatedsword", 1, { "definition" : "watersword" } ],
-				[ "generatedgun", 1, { "definition" : "rareplasmaassaultrifle" } ]
+				[ "generatedgun", 1, { "definition" : "rareplasmaassaultrifle" } ],
+				[ "generatedgun", 1, { "definition" : "rareassaultrifle" } ]
 			],
 			"levelVariance" : [0, 0],
 			"allowDuplication" : false
@@ -254,13 +267,61 @@
 				[ "ash", 1000 ],
 				"stonehoe",
 				"stoneaxe",
-				[ "shroom", 1000 ],
 				[ "skyfruitseed", 1000 ]
 			],
 			"levelVariance" : [0, 0],
 			"allowDuplication" : false
 		} ]
+	],
+
+	"n7humanBackupTreasure" : [
+		[ 0, {
+			"fill" : [
+				[ "automatoseed", 100 ],
+				[ "avesmingoseed", 100 ],
+				[ "bananaseed", 100 ],
+				[ "boltbulbseed", 100 ],
+				[ "bonebooseed", 100 ],
+				[ "carrotseed", 100 ],
+				[ "chiliseed", 100 ],
+				[ "coralcreepseed", 100 ],
+				[ "cornseed", 100 ],
+				[ "crystalplantseed", 100 ],
+				[ "currentcornseed", 100 ],
+				[ "diodiaseed", 100 ],
+				[ "dirturchinseed", 100 ],
+				[ "eggshootseed", 100 ],
+				[ "feathercrownseed", 100 ],
+				[ "grapesseed", 100 ],
+				[ "kiwiseed", 100 ],
+				[ "neonmelonseed", 100 ],
+				[ "oculemonseed", 100 ],
+				[ "pearlpeaseed", 100 ],
+				[ "pineappleseed", 100 ],
+				[ "potatoseed", 100 ],
+				[ "pussplumseed", 100 ], 
+				[ "reefpodseed", 100 ],
+				[ "riceseed", 100 ],
+				[ "sugarcaneseed", 100 ],
+				[ "tomatoseed", 100 ],
+				[ "toxictopseed", 100 ],
+				[ "wartweedseed", 100 ],
+				[ "wheatseed", 100 ],
+				[ "dirtmaterial", 500 ],
+				[ "drydirt", 500 ],
+				[ "wetdirt", 500 ],
+				[ "packeddirt", 500 ],
+				[ "mossypackeddirt", 500 ],
+				[ "corruptdirtmaterial", 500 ],
+				[ "mud", 500 ],
+				[ "clay", 500 ],
+				[ "ash", 500 ]
+			],
+			"levelVariance" : [0, 0],
+			"allowDuplication" : false
+		} ]
 	]
+
 
 }
 

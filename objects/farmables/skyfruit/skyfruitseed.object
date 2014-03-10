@@ -1,0 +1,86 @@
+{
+  "objectName" : "skyfruitseed",
+  "rarity" : "Legendary",
+  "category" : "farmable",
+  "description" : "Skyfruit! Delicacy of the gods!",
+  "shortdescription" : "Skyfruit Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+
+  "apexDescription" : "Skyfruits are the rarest of all delicacies.",
+  "avianDescription" : "So rare! Even the seeds are precious.",
+  "floranDescription" : "Must have all the Skyfruit...",
+  "glitchDescription" : "Amazing. The chemical composition is so complex. Must study more.",
+  "humanDescription" : "This thing looks wierd, but its sure filling.",
+  "hylotlDescription" : "Just the right amount of sweeetness. Too bad they float.",
+
+  "inventoryIcon" : "skyfruitseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "skyfruitseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "skyfruit",
+            "count" : 1
+          },
+          {
+            "name" : "skyfruitseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "skyfruit",
+            "count" : 1
+          },
+          {
+            "name" : "skyfruitseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "skyfruit",
+            "count" : 1
+          },
+          {
+            "name" : "skyfruitseed",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [60, 70],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [60, 70],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

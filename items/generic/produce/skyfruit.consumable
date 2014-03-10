@@ -1,0 +1,14 @@
+{
+  "itemName" : "skyfruit",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "skyfruit.png",
+  "description" : "The delicacy of gods",
+  "shortdescription" : "Skyfruit",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 2000
+      }
+    ] ]
+}

@@ -15,7 +15,8 @@
 				"biotic-slow-chip",
 				[ "Eezoore", 1000 ],
 				[ "refinedEezo", 1000 ],
-				[ "refinedEezo", 1000 ]
+				[ "refinedEezo", 1000 ],
+				[ "skyfruit", 1000 ]
 			],
 			"levelVariance" : [0, 0],
 			"allowDuplication" : false
@@ -253,7 +254,8 @@
 				[ "ash", 1000 ],
 				"stonehoe",
 				"stoneaxe",
-				[ "shroom", 1000 ]
+				[ "shroom", 1000 ],
+				[ "skyfruitseed", 1000 ]
 			],
 			"levelVariance" : [0, 0],
 			"allowDuplication" : false

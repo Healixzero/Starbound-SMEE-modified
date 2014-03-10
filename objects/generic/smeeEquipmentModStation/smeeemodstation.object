@@ -1,0 +1,71 @@
+{
+	"objectName" : "smeeemodstation",
+	"rarity" : "Common",
+	"objectType" : "wire",
+	
+	"interactData" : {
+		"config" : "/interface/windowconfig/smeeemodstation.config",
+		"filter" : [ "craftingtable", "plain", "smee" ]
+	},
+	
+	"printable" : false,
+	"description" : "For crafting and modifications.",
+	"shortdescription" : "Equipment Mod Station",
+	"race" : "generic",
+	"category" : "crafting",
+	"price" : 1000,
+
+	"inventoryIcon" : "smeeemodstationicon.png",
+	"orientations" : [
+		{
+			"dualImage" : "smeeemodstation.png:<color>.<frame>",
+			"frames" : 25,
+			"animationCycle" : 2.0,
+
+			"imagePosition" : [-8, 0],
+		
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+	  
+	"scripts" : [ "/scripts/smee/responsiveobject.lua", "smeeemodstation.lua" ],
+	"scriptDelta" : 10,
+	"animation" : "smeeemodstation.animation",
+	"animationParts" : {
+		"smeeemodstation" : "smeeemodstation.png"
+	},
+	"animationPosition" : [-8, 0],
+	
+	// responsive object parameters
+	"consoleSounds" : [ "/sfx/ships/console.ogg" ],
+	"responsiveObject" : {
+		"detectRadius" : 8,
+		"detectLineOfSight" : true,
+		"responsiveAnimations" : {
+			"idle" : [
+				{
+					"name" : "off",
+					"time" : -1
+				}
+			],
+			"active" : [
+				{
+					"name" : "on",
+					"time" : -1
+				}
+			],
+			"transActive" : {
+				"name" : "turnOn",
+				"time" : 2,
+				"sounds" : "consoleSounds"
+			},
+			"transIdle" : {
+				"name" : "turnOff",
+				"time" : 2,
+				"sounds" : "consoleSounds"
+			}
+		}
+	}
+	
+}

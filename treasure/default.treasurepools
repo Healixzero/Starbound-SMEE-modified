@@ -4,6 +4,20 @@
 	"n7humanStarterTreasure" : [
 		[0, {
 			"fill" : [
+				"beamaxe",
+				"flashlight",
+				[ "torch", 10],
+				[ "cornseed", 3],
+				[ "wheatseed", 3],
+			],
+			"levelVariance" : [0, 0],
+			"allowDuplication" : false
+		} ]
+	],
+
+	"n7humanStarter2Treasure" : [
+		[0, {
+			"fill" : [
 				"omnitool1",
 				"flashlight",
 				[ "flagn7human", 1],
